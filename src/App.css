@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*body, div {*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*}*/
+
+.container {
+  display: flex;
+  margin: 48px auto;
+  max-width: 1316px;
+  width: 100%;
+  justify-content: center;
+}
