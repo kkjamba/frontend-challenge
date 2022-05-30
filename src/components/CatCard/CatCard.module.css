@@ -4,6 +4,7 @@
     height: 225px;
     margin-right: 45px;
     margin-bottom: 45px;
+    transition: .3s ease;
 }
 
 .catCard:nth-child(5n) {

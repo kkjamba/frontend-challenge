@@ -12,8 +12,8 @@ const Header = () => {
     return (
         <div className={s.header}>
             <div className={s.container}>
-                <NavLink className={setActive} to='/'>Все котики</NavLink>
-                <NavLink className={setActive} to='/favorite'>
+                <NavLink className={setActive} to='/frontend-challenge/'>Все котики</NavLink>
+                <NavLink className={setActive} to='/frontend-challenge/favorite'>
                     Любимые котики
                 </NavLink>
             </div>

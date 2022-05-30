@@ -12,10 +12,6 @@ const FavoriteCats = () => {
         dispatch(setFavoriteCats(favoriteCats.filter(item => item.id !== cat.id)))
     }
 
-    useEffect(() => {
-        localStorage.setItem('favoriteCats', JSON.stringify(favoriteCats))
-    }, [favoriteCats])
-
     if(favoriteCats)
     return (
         <div className={s.cats}>
