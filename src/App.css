@@ -3,14 +3,11 @@
   margin: 0;
 }
 
-/*body, div {*/
-/*    font-family: 'Roboto', sans-serif;*/
-/*}*/
-
 .container {
   display: flex;
-  margin: 48px auto;
-  max-width: 1316px;
+  margin-top: 48px;
+  padding: 0 62px;
+
   width: 100%;
   justify-content: center;
 }

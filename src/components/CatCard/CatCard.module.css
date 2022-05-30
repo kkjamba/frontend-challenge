@@ -1,10 +1,57 @@
 .catCard {
     position: relative;
-    display: flex;
     width: 225px;
     height: 225px;
-    margin-bottom: 48px;
-    align-content: center;
+    margin-right: 45px;
+    margin-bottom: 45px;
+}
+
+.catCard:nth-child(5n) {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1428px) {
+    .catCard:nth-child(5n) {
+        margin-right: 45px;
+    }
+
+    .catCard:nth-child(4n) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1159px) {
+    .catCard:nth-child(4n) {
+        margin-right: 45px;
+    }
+
+    .catCard:nth-child(3n) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 889px) {
+    .catCard:nth-child(3n) {
+        margin-right: 45px;
+    }
+
+    .catCard:nth-child(2n) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 619px) {
+    .catCard:nth-child(1n) {
+        margin-right: 45px;
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .catCard:nth-child(1n) {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 
 .catImage {
@@ -29,15 +76,12 @@
     right: 19px;
     background-color: transparent;
     background-image: url('../../assets/empty_heart.svg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     opacity: 0;
-    transition: .2s ease-in-out;
+    transition: .3s ease;
     cursor: pointer;
 }
 
-.catCard:hover .likeButton{
+.catCard:hover .likeButton {
     opacity: 1;
 }
 
